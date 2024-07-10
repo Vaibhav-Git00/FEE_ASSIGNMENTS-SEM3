@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Form</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img src="https://imgs.search.brave.com/cXMe7M5svDPcIpgJGoACXOPZ26-r9Bv6ERXsvm_0g1M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZnJlZWxvZ292ZWN0/b3JzLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wMy9j/aGl0a2FyYS11bml2/ZXJzaXR5LWxvZ29f/ZnJlZWxvZ292ZWN0/b3JzLm5ldF8tNDAw/eDMyMi5wbmc" alt="College Logo" width="100">
+        <h1>Chitkara University</h1>
+    </header>
+
+    <main>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+
+            <div class="gender-group">
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div><br><br>
+
+            <label for="about">About Me:</label>
+            <textarea id="about" name="about" rows="4"></textarea><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="subject">Optional Subject:</label>
+            <select id="subject" name="subject">
+                <option value="subject1">Subject 1</option>
+                <option value="subject2">Subject 2</option>
+                <option value="subject3">Subject 3</option>
+            </select><br><br>
+
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="terms"> I agree to the terms and conditions</label>
+            </div><br><br>
+
+            <button type="submit">Submit</button><br><br>
+        </form>
+    </main>
+
+</body>
+</html>
+
